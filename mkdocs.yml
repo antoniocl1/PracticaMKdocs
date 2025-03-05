@@ -1,0 +1,7 @@
+site_name: Antonio Jesus Cortes Lopez
+
+nav:
+    - Principal: index.md
+    - Acerca de: about.md
+
+theme: material
