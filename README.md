@@ -22,7 +22,7 @@ nav:
 theme: material
 ```
 Aqui establezco los readme de las prácticas anteriores (4.1, 4.3, 4.5).
-
+Luego debemos establecer cada uno de estos archivos en el directorio /docs/
 ## Paso 3. Creamos la página web automáticamente con el script
 ```bash
 docker run --rm -it -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material build
