@@ -1,7 +1,9 @@
 site_name: Antonio Jesus Cortes Lopez
-
 nav:
     - Principal: index.md
     - Acerca de: about.md
     - Practica 1: practica1.md
+    - Practica 4.1: practica4-1.md
+    - Practica 4.3: practica4-3.md
+    - Practica 4.5: practica4-5.md
 theme: material
