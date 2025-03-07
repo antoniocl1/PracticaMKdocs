@@ -20,7 +20,7 @@ aws.create_security_group(sg_name, sg_description, ingress_permissions)
 # Listar los grupos de seguridad
 aws.list_security_groups()
 ```
-![](capturas/ejercicio1py.png)
+![](../capturas/capturas4-3/ejercicio1py.png)
 # Ejercicio2
 ```python
 from common import aws_resource_functions as aws
@@ -49,7 +49,7 @@ aws.create_instance(ami, 1, instance_type, key_name, instance_name, sg_name)
 # Listar las instancias
 aws.list_instances()
 ```
-![](capturas/ejercicio2py.png)
+![](../capturas/capturas4-3/ejercicio2py.png)
 # Ejercicio3A
 ```python
 from common import aws_resource_functions as aws
@@ -119,7 +119,7 @@ for nombre_instancia, nombre_sg in zip(nombres_instancias, nombres_sg):
     # Asociar la IP elástica a la instancia.
     aws.associate_elastic_ip(ips_elasticas[nombre_instancia], id_instancia)
 ```
-![](capturas/ejercicio3py.png)
+![](../capturas/capturas4-3/ejercicio3py.png)
 # Ejercicio3B
 ```python
 from common.aws_resource_class import AWS
@@ -166,5 +166,5 @@ def delete_sg(sg_name):
 for i in range(len(sg_name)):
     delete_sg(sg_name[i])
 ```
-![](capturas/ejercicio4py.png)
+![](../capturas/capturas4-3/ejercicio4py.png)
 **El error que nos da pasa después de ejecutar muchas veces el script, supongo que al AWS le cuesta procesar todas las creaciones y borrados que estoy haciendo y se queda un poco pillado**

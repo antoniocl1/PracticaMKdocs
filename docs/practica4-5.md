@@ -258,12 +258,12 @@ variable "SG_NFS" {
 
 **COMPROBACIONES**
 - **Salida de ejecución de terraform**
-![Salida-Terraform](capturas/salida.png)
+![Salida-Terraform](../capturas/capturas4-5/salida.png)
 - **Creación de instancias**
-![Instancias-Creadas](capturas/instancias.png)
+![Instancias-Creadas](../capturas/capturas4-5/instancias.png)
 - **Creación de Grupos de Seguridad**
-![Grupos-Seguridad-Creados](capturas/grupos-seguridad.png)
+![Grupos-Seguridad-Creados](../capturas/capturas4-5/grupos-seguridad.png)
 - **Creación de IPs Elásticas**
-![IPsElásticas](capturas/ip-elastica.png)
+![IPsElásticas](../capturas/capturas4-5/ip-elastica.png)
 - **Grupos de seguridad asociados a instancias**
-![IPsElásticas](capturas/instancias-asociadas.png)
+![IPsElásticas](../capturas/capturas4-5/instancias-asociadas.png)
