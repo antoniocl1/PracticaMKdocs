@@ -375,7 +375,7 @@ aws.create_security_group(sg_name, sg_description, ingress_permissions)
 # Listar los grupos de seguridad
 aws.list_security_groups()
 </code></pre>
-<p><img alt="" src="capturas/ejercicio1py.png" /></p>
+<p><img alt="" src="../capturas/capturas4-3/ejercicio1py.png" /></p>
 <h1 id="ejercicio2">Ejercicio2</h1>
 <pre><code class="language-python">from common import aws_resource_functions as aws
 
@@ -403,7 +403,7 @@ aws.create_instance(ami, 1, instance_type, key_name, instance_name, sg_name)
 # Listar las instancias
 aws.list_instances()
 </code></pre>
-<p><img alt="" src="capturas/ejercicio2py.png" /></p>
+<p><img alt="" src="../capturas/capturas4-3/ejercicio2py.png" /></p>
 <h1 id="ejercicio3a">Ejercicio3A</h1>
 <pre><code class="language-python">from common import aws_resource_functions as aws
 import boto3
@@ -472,7 +472,7 @@ for nombre_instancia, nombre_sg in zip(nombres_instancias, nombres_sg):
     # Asociar la IP elástica a la instancia.
     aws.associate_elastic_ip(ips_elasticas[nombre_instancia], id_instancia)
 </code></pre>
-<p><img alt="" src="capturas/ejercicio3py.png" /></p>
+<p><img alt="" src="../capturas/capturas4-3/ejercicio3py.png" /></p>
 <h1 id="ejercicio3b">Ejercicio3B</h1>
 <pre><code class="language-python">from common.aws_resource_class import AWS
 
@@ -518,7 +518,7 @@ def delete_sg(sg_name):
 for i in range(len(sg_name)):
     delete_sg(sg_name[i])
 </code></pre>
-<p><img alt="" src="capturas/ejercicio4py.png" />
+<p><img alt="" src="../capturas/capturas4-3/ejercicio4py.png" />
 <strong>El error que nos da pasa después de ejecutar muchas veces el script, supongo que al AWS le cuesta procesar todas las creaciones y borrados que estoy haciendo y se queda un poco pillado</strong></p>
 
 
